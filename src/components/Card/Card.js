@@ -15,7 +15,7 @@ export default class Card extends Component {
                         <Text style={styles.valorProduto}>R${this.props.valorProduto}</Text>
                     </View>
                     <View style={styles.carrinhoGostei}>
-                        <Button style={styles.buttonCarrinho} color="#00C1FF" title="Adicionar ao Carrinho"></Button>
+                        <Button style={styles.buttonCarrinho} color="#00C1FF" title="Adicionar ao Carrinho" onPress={this.props.adicionar}></Button>
                         <AntDesign name="heart" size={32} color="#00C1FF" />
                     </View>
                 </View>

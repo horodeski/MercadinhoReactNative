@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 import styles from "./style";
 import { AntDesign } from '@expo/vector-icons';
 
-export default function Header() {
+export default function Header(props) {
     return (
         <View style={styles.header}>
             <Text style={styles.nomeLoja}>Mercadinho</Text>
@@ -14,6 +14,8 @@ export default function Header() {
                 <View style={styles.iconeCoracao}>
                     <AntDesign name="heart" size={27} color="white" />
                 </View>
+                <Text>{props.carrinho}
+                </Text>
             </View>
         </View>
     );

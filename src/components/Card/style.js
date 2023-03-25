@@ -2,24 +2,23 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     fotoProduto: {
         width: "100%",
-        height: 400,
-        borderRadius: 15
+        height: 150,
+        borderRadius: 15,
     },
     card: {
-        padding: 15,
-        margin: 20,
-        borderWidth: 2,
-        borderColor: "#00C1FF",
-        borderRadius: 20,
+        width: 170,
+        margin: 5,
+        borderRadius: 15,
+        padding: 5,
+        backgroundColor: "#fff",
+
     },
     nomeValor: {
         flexDirection: "row",
         justifyContent: "space-between",
-        marginBottom: 10,
-
     },
     nomeProduto: {
-        fontSize: 20,
+        fontSize: 15,
         fontWeight: "bold",
     },
     valorProduto: {
@@ -29,14 +28,13 @@ const styles = StyleSheet.create({
     },
     carrinhoGostei: {
         flexDirection: "row",
-        justifyContent: "space-between",
     },
     buttonCarrinho: {
         backgroundColor: "#00C1FF",
-        width: "100%",
+        width: "20%",
     },
     infos: {
-        padding: 10,
+        padding: 5,
     }
 
 });

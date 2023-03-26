@@ -4,6 +4,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
 
   },
+  categorias: {
+    flexDirection: "row",
+  },
   fotoCategoria: {
     width: "50%",
     height: 45,
@@ -20,7 +23,7 @@ const styles = StyleSheet.create({
   nomeCategoria: {
     fontSize: 15,
     textAlign: "center",
-    fontWeight: "bold",
+    fontWeight: "700",
   },
 });
 

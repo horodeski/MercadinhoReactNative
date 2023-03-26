@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
     nomeProduto: {
         fontSize: 15,
-        fontWeight: "bold",
+        fontWeight: "600",
     },
     valorProduto: {
         fontSize: 20,

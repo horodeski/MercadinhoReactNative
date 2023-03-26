@@ -13,12 +13,11 @@ export default function Header(props) {
         <View style={styles.icones}>
           <View style={styles.iconeCarrinho}>
             <AntDesign name="shoppingcart" size={30} color="white" />
+            <Text style={styles.carrinhoText}>{props.carrinho}</Text>
           </View>
           <View style={styles.iconeCoracao}>
             <AntDesign name="heart" size={27} color="white" />
           </View>
-          {/*                 <Text>{props.carrinho}
-                </Text> */}
         </View>
       </View>
       <View style={styles.pesquisaView}>

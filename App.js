@@ -3,21 +3,24 @@ import Header from "mercadinho/src/components/Header/Header";
 import { ScrollView } from "react-native";
 import Main from "mercadinho/src/components/Main/Main";
 import Nav from "mercadinho/src/components/Nav/Nav";
+import { useState } from "react";
 
 export default function App() {
-  /*   const [carrinho, setCarrinho] = useState(0)
+  const [carrinho, setCarrinho] = useState(0);
   function adicionar(id) {
-    setCarrinho(carrinho+1)
-  } */
+    setCarrinho(carrinho + 1);
+  }
   return (
     <View style={styles.body}>
       <ScrollView>
-        <Header /* carrinho={carrinho} */ />
+        <Header carrinho={carrinho} />
         <View style={styles.avisoView}>
-          <Text style={styles.mensagemAviso}>FRETE GRÁTIS A PARTIR DE R$30</Text>
+          <Text style={styles.mensagemAviso}>
+            FRETE GRÁTIS A PARTIR DE R$30
+          </Text>
         </View>
         <Nav />
-        <Main />
+        <Main adicionar={() => adicionar(1)} />
       </ScrollView>
     </View>
   );

@@ -26,6 +26,13 @@ const styles = StyleSheet.create({
   },
   iconeCarrinho: {
     marginRight: 10,
+    flexDirection: "row",
+  },
+  carrinhoText: {
+    backgroundColor: "#00c1ff",
+    borderRadius: 50,
+    paddingHorizontal: 3,
+    height: 20,
   },
   nomeLoja: {
     fontWeight: "bold",
@@ -35,6 +42,9 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: "#00C1FF",
   },
+  CarrinhoText: {
+    color: "#FFF"
+  }
 });
 
 export default styles;

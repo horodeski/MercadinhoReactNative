@@ -2,26 +2,30 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   nav: {
     backgroundColor: "#fff",
-
+    borderBottomColor: "#00c1ff",
+    borderBottomWidth: 5,
+    height: 70,
   },
   categorias: {
     flexDirection: "row",
   },
   fotoCategoria: {
-    width: "50%",
-    height: 45,
+    width: 35,
+    height: 35,
     borderRadius: 50,
   },
   card: {
-    width: 100,
+    width: 200,
     margin: 5,
+    justifyContent: "space-around",
+    flexDirection: "row",
     borderRadius: 15,
     padding: 5,
     alignItems: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#F7F7F7",
   },
   nomeCategoria: {
-    fontSize: 15,
+    fontSize: 13,
     textAlign: "center",
     fontWeight: "700",
   },

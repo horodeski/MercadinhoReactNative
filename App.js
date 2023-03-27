@@ -12,13 +12,13 @@ export default function App() {
   }
   return (
     <View style={styles.body}>
-      <ScrollView>
-        <Header carrinho={carrinho} />
+      <Header carrinho={carrinho} />
         <View style={styles.avisoView}>
           <Text style={styles.mensagemAviso}>
             FRETE GRÁTIS A PARTIR DE R$30
           </Text>
         </View>
+      <ScrollView>
         <Nav />
         <Main adicionar={() => adicionar(1)} />
       </ScrollView>

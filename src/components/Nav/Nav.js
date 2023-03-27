@@ -1,4 +1,3 @@
-import { Component } from "react";
 import { View, Image, Text } from "react-native";
 import styles from "./style";
 import { ScrollView } from "react-native";
@@ -47,7 +46,7 @@ export default function Nav() {
       <ScrollView horizontal={true}>
         <View style={styles.categorias}>
           {categorias.map((categoria) => (
-            <Card categoria={categoria} />
+            <Card categoria={categoria} /> 
           ))}
         </View>
       </ScrollView>

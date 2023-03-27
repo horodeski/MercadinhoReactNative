@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, TextInput } from "react-native";
 import styles from "./style";
+import { Ionicons } from '@expo/vector-icons';
 import { AntDesign } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 
@@ -8,8 +9,8 @@ export default function Header(props) {
   return (
     <View style={styles.header}>
       <View style={styles.headerPrincipal}>
-        <MaterialIcons name="email" size={30} color="white" />
-        <Text style={styles.nomeLoja}>Mercadinho</Text>
+        <Ionicons name="ios-menu" size={35} color="white" />
+        <Text style={styles.nomeLoja}>MERCADINHO</Text>
         <View style={styles.icones}>
           <View style={styles.iconeCarrinho}>
             <AntDesign name="shoppingcart" size={30} color="white" />

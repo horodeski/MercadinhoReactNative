@@ -11,6 +11,8 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         padding: 5,
         backgroundColor: "#fff",
+        flexDirection: "column",
+        justifyContent: "space-between",
 
     },
     nomeValor: {
@@ -25,13 +27,6 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: "bold",
         color: "#00C1FF"
-    },
-    carrinhoGostei: {
-        flexDirection: "row",
-    },
-    buttonCarrinho: {
-        backgroundColor: "#00C1FF",
-        width: "20%",
     },
     infos: {
         padding: 5,

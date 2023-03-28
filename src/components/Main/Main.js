@@ -1,7 +1,7 @@
 import { View, Text, ScrollView } from "react-native";
-import CardCategoria from "mercadinho/src/components/CardCategoria/Card";
-import CardOfertas from "mercadinho/src/components/CardOfertas/Card";
-import CardProduto from "mercadinho/src/components/CardProduto/Card";
+import CardCategoria from "mercadinho/src/components/Card/CardCategoria/Card";
+import CardOfertas from "mercadinho/src/components/Card/CardOfertas/Card";
+import CardProduto from "mercadinho/src/components/Card/CardProduto/Card";
 import styles from "./style";
 
 function Destaque(props) {

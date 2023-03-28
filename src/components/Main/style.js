@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 12,
     borderWidth: 5,
     flexWrap: "wrap",
+    height: 1300, //* veja bem
   },
   TextH2: {
     color: "#00c1ff",

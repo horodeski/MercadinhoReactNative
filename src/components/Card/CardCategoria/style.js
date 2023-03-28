@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
-    fotoProduto: {
+    fotoCategoria: {
         width: 150,
         height: 150,
         borderRadius: 15,
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
 
     },
-    nomeProduto: {
+    nomeCategoria: {
         fontSize: 15,
         textAlign: "center",
         fontWeight: "600",
